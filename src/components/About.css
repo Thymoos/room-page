@@ -1,0 +1,19 @@
+.about {
+    position: absolute;
+    bottom: 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about .text {
+    justify-self: center;
+}
+
+.about img:nth-of-type(2) {
+    justify-self: right;
+}
+
+.about .text h2 {
+    font-size: 26px;
+    padding-bottom: 20px;
+}

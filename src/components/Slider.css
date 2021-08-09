@@ -57,3 +57,23 @@ p {
 .slider {
     height: 534px;
 }
+
+@media(max-width: 1919px) {
+    .info button {
+        font-size: 24px;
+    }
+
+    .info {
+        width: 500px;
+        top: 90px;
+        right: 3%;
+    }
+
+    .info h1 {
+        font-size: 35px;
+    }
+
+    p {
+        line-height: 26px;
+    }
+}

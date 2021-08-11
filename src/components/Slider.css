@@ -58,14 +58,6 @@ p {
     height: 534px;
 }
 
-.arrows button img {
-    transition: 0.2s;
-}
-
-.arrows button img:hover {
-    color: var(--dark-gray);
-}
-
 @media(max-width: 1919px) {
     .info button {
         font-size: 24px;

@@ -3,6 +3,9 @@ import './Slider.css';
 import img1 from '../images/desktop-image-hero-1.jpg';
 import img2 from '../images/desktop-image-hero-2.jpg';
 import img3 from '../images/desktop-image-hero-3.jpg';
+import arrowLeft from '../images/icon-angle-left.svg';
+import arrowRight from '../images/icon-angle-right.svg';
+import arrow from '../images/icon-arrow.svg';
 
 const slides = [
      {
@@ -55,14 +58,14 @@ const Slider = () => {
         <div className="slider">
             <img src={slide.img} alt="our furniture" />
             <div className="arrows">
-                <button onClick={handleChangeLeft}>{"<"}</button>
-                <button onClick={handleChangeRight}>&gt;</button>
+                <button onClick={handleChangeLeft}><img src={arrowLeft} alt="" /></button>
+                <button onClick={handleChangeRight}><img src={arrowRight} alt="" /></button>
             </div>
 
             <div className="info">
                 <h1>{slide.h1}</h1>
                 <p>{slide.text}</p>
-                <button>SHOP NOW</button>
+                <button>SHOP NOW <img src={arrow} alt="" /></button>
             </div>
         </div>
      );

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4a4cf0e.chunk.css",
+    "main.js": "/static/js/main.0a8308b4.chunk.js",
+    "main.js.map": "/static/js/main.0a8308b4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.608ae73d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.608ae73d.js.map",
+    "static/js/2.0c1097be.chunk.js": "/static/js/2.0c1097be.chunk.js",
+    "static/js/2.0c1097be.chunk.js.map": "/static/js/2.0c1097be.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f4a4cf0e.chunk.css.map": "/static/css/main.f4a4cf0e.chunk.css.map",
+    "static/js/2.0c1097be.chunk.js.LICENSE.txt": "/static/js/2.0c1097be.chunk.js.LICENSE.txt",
+    "static/media/desktop-image-hero-1.91901d0d.jpg": "/static/media/desktop-image-hero-1.91901d0d.jpg",
+    "static/media/desktop-image-hero-2.9d354056.jpg": "/static/media/desktop-image-hero-2.9d354056.jpg",
+    "static/media/desktop-image-hero-3.05fd679a.jpg": "/static/media/desktop-image-hero-3.05fd679a.jpg",
+    "static/media/icon-angle-left.d53877df.svg": "/static/media/icon-angle-left.d53877df.svg",
+    "static/media/icon-angle-right.0ed3f81f.svg": "/static/media/icon-angle-right.0ed3f81f.svg",
+    "static/media/icon-arrow.84087786.svg": "/static/media/icon-arrow.84087786.svg",
+    "static/media/image-about-dark.329bbc44.jpg": "/static/media/image-about-dark.329bbc44.jpg",
+    "static/media/mobile-image-hero-1.5de3d147.jpg": "/static/media/mobile-image-hero-1.5de3d147.jpg",
+    "static/media/mobile-image-hero-2.51db290a.jpg": "/static/media/mobile-image-hero-2.51db290a.jpg",
+    "static/media/mobile-image-hero-3.601d0f37.jpg": "/static/media/mobile-image-hero-3.601d0f37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.608ae73d.js",
+    "static/js/2.0c1097be.chunk.js",
+    "static/css/main.f4a4cf0e.chunk.css",
+    "static/js/main.0a8308b4.chunk.js"
+  ]
+}

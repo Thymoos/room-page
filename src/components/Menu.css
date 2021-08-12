@@ -28,3 +28,10 @@ ul li a:hover {
     border-bottom: 2px solid white;
     padding-bottom: 5px;
 }
+
+@media(max-width: 420px) {
+    ul {
+        max-width: 100vw;
+        display: none;
+    }
+}

@@ -81,10 +81,12 @@ const Slider = () => {
 
     return ( 
         <div className="slider">
-            <img src={windowDimensions.width <= 500 ? slide.imgMobile : slide.imgDesktop} alt="our furniture" />
+            <div className="main-img-wrapper">
+            <img src={windowDimensions.width <= 375 ? slide.imgMobile : slide.imgDesktop} alt="our furniture" />
             <div className="arrows">
                 <button onClick={handleChangeLeft}><img src={arrowLeft} alt="" /></button>
                 <button onClick={handleChangeRight}><img src={arrowRight} alt="" /></button>
+            </div>
             </div>
 
             <div className="info">

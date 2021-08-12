@@ -33,3 +33,26 @@
         font-size: 22px;
     }
 }
+
+@media(max-width: 420px) {
+    .about {
+        display: block;
+        position: relative;
+        bottom: 0;
+        margin-top: 230px;
+    }
+
+    html {
+        max-width: 100vw;
+    }
+
+    .about img {
+        max-width: 100vw;
+    }
+
+    .about .text {
+        max-width: 90vw;
+        margin-left: 15px;
+        text-align: center;
+    }
+}

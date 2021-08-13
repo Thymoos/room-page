@@ -32,6 +32,16 @@ ul li a:hover {
 @media(max-width: 420px) {
     ul {
         max-width: 100vw;
+        z-index: 1000;
+    }
+
+    ul li {
         display: none;
+    }
+
+    ul li:first-child {
+        display: inline;
+        text-align: center;
+        padding-right: 0;
     }
 }

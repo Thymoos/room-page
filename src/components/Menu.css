@@ -60,14 +60,14 @@ ul li a:hover {
         position: absolute;
         top: 48px;
         left: 5vw;
-        z-index: 100;
+        z-index: 2000;
         border: none;
     }
 
     .active {
         background-color: #fff;
         z-index: 10;
-        position: absolute;
+        position: fixed;
         width: 100vw;
         height: 15vh;
         transition: 0.3s;
@@ -90,5 +90,15 @@ ul li a:hover {
 
     .active ul li:nth-child(2) {
         margin-left: 20vw;
+    }
+
+    .active .shade {
+        width: 100vw;
+        height: 85vh;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }

@@ -63,4 +63,32 @@ ul li a:hover {
         z-index: 100;
         border: none;
     }
+
+    .active {
+        background-color: #fff;
+        z-index: 10;
+        position: absolute;
+        width: 100vw;
+        height: 15vh;
+        transition: 0.3s;
+    }
+
+    .active ul li {
+        display: flex;
+        color: black;
+    }
+
+    .active ul li a {
+        color: black;
+        font-weight: 600;
+        padding-top: 8px;
+    }
+
+    .active ul li:first-child {
+        display: none;
+    }
+
+    .active ul li:nth-child(2) {
+        margin-left: 20vw;
+    }
 }

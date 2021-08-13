@@ -10,15 +10,14 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2",
-    "homepage": "https://thymoos.github.io/room-page/"
+    "homepage": "https://thymoos.github.io/room-page"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

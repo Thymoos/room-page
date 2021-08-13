@@ -2,9 +2,15 @@
 import React from 'react';
 import './Menu.css';
 
+import hamburger from '../images/icon-hamburger.svg';
+import close from '../images/icon-close.svg';
+
 const Menu = () => {
     return ( 
         <div className="menu">
+
+            <button className="mobile-menu"><img src={hamburger} alt="" /></button>
+
             <nav>
                 <ul>
                     <li>room</li>

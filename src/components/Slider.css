@@ -145,7 +145,7 @@ p {
         position: absolute;
         top: 100%;
         left: 100vw;
-        transform: translate(-120px, 0);
+        transform: translate(-120px, -65px);
         max-height: 60px;
         width: 120px;
     }
